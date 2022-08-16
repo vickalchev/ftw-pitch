@@ -1,0 +1,57 @@
+.container {
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #F5F5F5;
+}
+
+.h1 {
+    margin-left: 5%;    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 125%;
+    /* or 125px */
+    letter-spacing: -0.02em;
+
+}
+
+.process {
+    margin-left: 5%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 125%;
+    /* or 125px */
+    letter-spacing: -0.02em;
+
+    color:#FDC307;
+
+}
+
+.h2 {
+    margin-left: 5%;
+    width: 90%;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 125%;
+}
+
+.guideYou {
+    background-color: black;
+    color: #FDC307;
+    font-weight: 300;
+}
+
+.process-map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10%;
+    width: 75%;
+    height: auto;
+}
+
+
