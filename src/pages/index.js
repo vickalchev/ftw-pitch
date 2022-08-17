@@ -3,6 +3,7 @@ import './reset.css';
 import NavBar from '../components/NavBar';
 import Header from '../components/Header';
 import Process from '../components/Process';
+import CTA1 from '../components/CTA1';
 
 const IndexPage = () => {
   return (
@@ -10,6 +11,7 @@ const IndexPage = () => {
       <NavBar />
       <Header />
       <Process />
+      <CTA1 />
 
     </main>
   )
