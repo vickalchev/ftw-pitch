@@ -1,7 +1,7 @@
 .container {
     margin: auto;
     margin-top: 10px;
-    max-width: 90%;
+    max-width: 80%;
     font-family: 'Roboto';
     display: flex;
     justify-content:space-between;
