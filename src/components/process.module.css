@@ -1,13 +1,16 @@
+.process-bkg {
+    background-color:#F5F5F5; ;
+}
+
 .container {
     margin: auto;
     max-width: 80%;
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color: #F5F5F5;
 }
 
 .h1 {
-    margin-left: 5%;    
+    /* margin-left: 5%;     */
     font-style: normal;
     font-weight: 900;
     font-size: 100px;
@@ -18,7 +21,8 @@
 }
 
 .process {
-    margin-left: 5%;
+    /* margin-left: 5%; */
+    margin-bottom: 2%;
     font-style: normal;
     font-weight: 900;
     font-size: 100px;
@@ -31,7 +35,7 @@
 }
 
 .h2 {
-    margin-left: 5%;
+    /* margin-left: 5%; */
     width: 90%;
     font-family: 'Roboto';
     font-style: italic;

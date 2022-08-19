@@ -1,3 +1,33 @@
-container {
+
+.cta-1-bkg {
+    background-color: #FDC307;
+}
+
+.container {
+    margin: auto;
+    max-width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.cta-message {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 125%;
+    /* or 125px */
+    letter-spacing: -0.02em;
+    max-width: 50%;
+}
+
+.img-circle-style {
+    border-radius: 100%;
+    background-image: url('../assets/man-smiling.jpg');
+    width: 383px;
+    height: 383px;
     
+}
+
+.cta-heading-img {
+    display: flex;
 }
