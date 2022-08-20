@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Logo from '../assets/FTW Pitch Logo.png';
+import Logo from '../images/FTW Pitch Logo.png';
 import {
     container,
     logo,

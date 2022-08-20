@@ -1,5 +1,5 @@
 .process-bkg {
-    background-color:#F5F5F5; ;
+    background-color:#F5F5F5;
 }
 
 .container {
@@ -37,7 +37,7 @@
 .h2 {
     /* margin-left: 5%; */
     width: 90%;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
     font-style: italic;
     font-weight: 200;
     font-size: 40px;

@@ -2,7 +2,6 @@
     margin: auto;
     margin-top: 10px;
     max-width: 80%;
-    font-family: 'Roboto';
     display: flex;
     justify-content:space-between;
 
@@ -18,12 +17,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 
 .nav-list {
-    font-style:italic;
-    font-weight: 300;
+    
+    font-weight: 600;
     font-size: 1.2rem;
     display: flex;
     justify-content: space-between;

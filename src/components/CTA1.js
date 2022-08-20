@@ -1,5 +1,5 @@
 import React from 'react';
-import ImgManSmiling from '../assets/ManSmiling.png';
+import ImgManSmiling from '../images/ManSmiling.png';
 import {
     cta1Bkg,
     topSectionContainer,
@@ -8,6 +8,7 @@ import {
     ctaMessage,
     imgCircleContainer,
     imgManSmiling,
+    scheduleBtn,
     
 
     
@@ -27,7 +28,10 @@ const Cta1 = () => {
                 </div>  
             </div>
             <div className={bottomSectionContainer}>
-             {/* This section holds the subheadings that extend across the parent div.*/}   
+             {/* This section holds the subheadings that extend across the parent div.*/}
+             <h2>Let's find out what you are building and how we can help!</h2>   
+             <p>No commitment or expectation to buy.</p>
+             <button className={scheduleBtn}>Schedule it!</button>
 
             </div>
 

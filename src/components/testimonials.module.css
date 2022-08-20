@@ -1,0 +1,29 @@
+.testimonials-bkg {
+    background-color:#F5F5F5;
+}
+
+.container {
+    margin: auto;
+    max-width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 125%;
+    /* or 125px */
+    letter-spacing: -0.02em;
+}
+
+.about-us {
+    color:#FDC307;
+}
+
+.testimonialsImg {
+    display: block;
+    margin: 10% auto;
+        
+}

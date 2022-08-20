@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import FloodlightIcon from '../assets/spotlightIcon.png';
+import FloodlightIcon from '../images/spotlightIcon.png';
 import {
     container,
     circle1,

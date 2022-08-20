@@ -1,5 +1,5 @@
 import React from 'react';
-import ProcessMap from '../assets/ProcessMap.png';
+import ProcessMap from '../images/ProcessMap.png';
 import {
     processBkg,
     container,
