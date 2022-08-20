@@ -1,11 +1,15 @@
 import React from 'react';
-import ImgCircle from '../assets/man-smiling.jpg';
+import ImgManSmiling from '../assets/ManSmiling.png';
 import {
     cta1Bkg,
-    container,
+    topSectionContainer,
+    bottomSectionContainer,
+    ctaMessageContainer,
     ctaMessage,
-    imgCircleStyle,
-    ctaHeadingImg,
+    imgCircleContainer,
+    imgManSmiling,
+    
+
     
 
 } from './cta1.module.css';
@@ -13,21 +17,20 @@ import {
 const Cta1 = () => {
     return (
         <div className={cta1Bkg}>
-            <div className={container}>
-                                    <div >
-                        <h1 className={ctaMessage}>Book a free discovery call</h1>
-                    </div>
-                    <div className={ctaHeadingImg}>
-                        <div />
-                        
-                        <div></div>
-                    </div>
-                    <h2></h2>
-                    <h3></h3>
-                    <button>Schedule It!</button>
-                
+            <div className={topSectionContainer}>
+                <div className={ctaMessageContainer} > {/* A headline container */}
+                    <h1 className={ctaMessage}>Book a free discovery call</h1>
+                </div>
+                <div className={imgCircleContainer}> {/* An circle image container */}
+
+                <img className={imgManSmiling} src={ImgManSmiling} alt='Smiling man' />
+                </div>  
+            </div>
+            <div className={bottomSectionContainer}>
+             {/* This section holds the subheadings that extend across the parent div.*/}   
 
             </div>
+
         </div>
     )
 }
