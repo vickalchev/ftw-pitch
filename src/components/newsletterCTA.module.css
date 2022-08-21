@@ -1,0 +1,82 @@
+.newsletterCtaBkg {
+    background-color: black;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.h1-newsletter-cta {
+    font-style: normal;
+    color: white;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 125%;
+    /* or 125px */
+    letter-spacing: -0.02em;
+    /* max-width: 70%; */
+}
+
+.newsletter {
+    color: #FDC307;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-col {
+    max-width: 60%;
+}
+
+.h2-newsletter-cta {
+    color: white;
+
+}
+
+.magnet-wrapper {
+    margin-top: 10%;
+    max-width: 60%;
+}
+
+.magnet-title {
+    color:#FDC307;
+    font-weight: 600;
+}
+
+
+.newsletter-CTA-img {
+    width: 500px;
+    height: 500px;
+    
+}
+
+.ctaBtn {
+    margin-top: 16px;
+    padding: 14px 14px;
+    position: relative;
+    width: 152px;
+    height: 60px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    background: black;
+    border: 1px solid #FDC307;
+    box-shadow: 4px 4px 0px #FDC307;
+}
+
+.ctaBtn:hover {
+    cursor: pointer;
+    background-color: #FDC307;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 4px 4px 0px white;
+}
