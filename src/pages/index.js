@@ -7,6 +7,7 @@ import CTA1 from '../components/CTA1';
 import Testimonials from '../components/Testimonials';
 import NewsletterCTA from '../components/NewsletterCta';
 import Team from '../components/Team';
+import CTA2 from '../components/CTA2';
 import Footer from '../components/Footer';
 
 const IndexPage = () => {
@@ -19,7 +20,7 @@ const IndexPage = () => {
       <Testimonials />
       <NewsletterCTA />
       <Team />
-      <CTA1 />
+      <CTA2 />
       <Footer />    
 
     </main>
