@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import Logo from '../images/FTW Pitch Logo.png';
 import {
     container,
@@ -24,8 +25,13 @@ const NavBar = () => {
             <nav className={navMenu}>
                 <ul className={navList}>
                     <li className={menuItem}>
-                        How It Works
+                        <AnchorLink
+                            to='/#process'
+                            >
+                            How It Works
+                        </AnchorLink>
                     </li>
+                    
                     <li className={menuItem}>
                         Let's Chat
                     </li>

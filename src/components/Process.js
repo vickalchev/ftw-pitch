@@ -13,7 +13,7 @@ import {
 
 const Process = () => {
     return (
-        <div className={processBkg}>
+        <div className={processBkg} id='process'>
             <div className={container}>
                 <h1 className={h1}>Fundraising is a </h1> <h1 className={process}>process</h1>
                 <h2 className={h2}>You don't have to discover it on your own.</h2>
