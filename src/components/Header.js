@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import FloodlightIcon from '../images/spotlightIcon.png';
 import {
     container,
@@ -26,8 +26,14 @@ const Header = () => {
                         alt='Floodlight Icon' />
                 </span>
             </h2>
-            <button className = {howItWorksBtn}>How it works</button>
-        
+            <AnchorLink
+                to='#process'
+                >
+                <button 
+                    className = {howItWorksBtn}>
+                        How it works
+                        </button>
+            </AnchorLink>
         </div>
     )
 

@@ -27,8 +27,14 @@ const Cta2 = () => {
              {/* This section holds the subheadings that extend across the parent div.*/}
              <h2>Let's find out what you are building and how we can help!</h2>   
              <p>No commitment or expectation to buy.</p>
-             <button className={scheduleBtn}>Schedule it!</button>
 
+             <a
+                href='https://calendly.com/next-round/15min'
+                target='_blank'
+                rel='noopener noreferrer'
+            >
+                <button className={scheduleBtn}>Schedule it!</button>
+             </a>
             </div>
 
         </div>

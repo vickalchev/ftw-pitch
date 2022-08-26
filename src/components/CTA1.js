@@ -17,7 +17,7 @@ import {
 
 const Cta1 = () => {
     return (
-        <div className={cta1Bkg}>
+        <div className={cta1Bkg} id='cta1'>
             <div className={topSectionContainer}>
                 <div className={ctaMessageContainer} > {/* A headline container */}
                     <h1 className={ctaMessage}>Book a free discovery call</h1>
@@ -31,8 +31,13 @@ const Cta1 = () => {
              {/* This section holds the subheadings that extend across the parent div.*/}
              <h2>Let's find out what you are building and how we can help!</h2>   
              <p>No commitment or expectation to buy.</p>
-             <button className={scheduleBtn}>Schedule it!</button>
-
+             <a
+                href='https://calendly.com/next-round/15min'
+                target='_blank'
+                rel='noopener noreferrer'
+            >
+                <button className={scheduleBtn}>Schedule it!</button>
+             </a>
             </div>
 
         </div>

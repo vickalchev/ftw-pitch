@@ -8,6 +8,7 @@ import {
     navMenu,
     navList,
     menuItem,
+    menuItemAnchorLink,
 
 } from './navBar.module.css';
 
@@ -26,20 +27,37 @@ const NavBar = () => {
                 <ul className={navList}>
                     <li className={menuItem}>
                         <AnchorLink
-                            to='/#process'
+                            className={menuItemAnchorLink}
+                            to='#process'
                             >
                             How It Works
                         </AnchorLink>
                     </li>
                     
                     <li className={menuItem}>
-                        Let's Chat
+                        <AnchorLink
+                            className={menuItemAnchorLink}
+                            to='#cta1'
+                        >
+                            Let's Chat  
+                        </AnchorLink>
                     </li>
                     <li className={menuItem}>
-                        Team
+                        <AnchorLink
+                            className={menuItemAnchorLink}
+                            to='#team' >
+                            Team
+                        </AnchorLink>
                     </li>
                     <li className={menuItem}>
-                        FTW.DAO
+                        <a
+                        className={menuItemAnchorLink}
+                        href='https://www.ftwdao.com/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        >
+                            FTW.DAO
+                        </a>
                     </li>
                 </ul>
             </nav>

@@ -20,7 +20,7 @@ import {
 
 const Team = () => {
     return (
-        <div className={container}>
+        <div className={container} id='team'>
             <h1 className={heading}>
                 Who are <span className={accentWord}>we</span>?
             </h1>
