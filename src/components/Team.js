@@ -1,5 +1,5 @@
 import React from 'react';
-import IslaHeadshot from '../images/Photo-Isla.png';
+import { StaticImage } from 'gatsby-plugin-image';
 import BenHeadshot from '../images/Photo-Ben.png';
 import VicHeadshot from '../images/Photo-Vic.png';
 
@@ -31,10 +31,11 @@ const Team = () => {
 
                 <div className={bioContainerLeft} >
                     <div className={bioImgContainer}>
-                        <img 
+                        <StaticImage
                             className={headshot}
-                            src={IslaHeadshot}
+                            src='../images/Photo-Isla.png'
                             alt='Isla Headshot'
+                            placeholder='traceSVG'
                         />
                     </div>
                     <div className={bioTextContainer}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import ImgManSmiling from '../images/ManSmiling.png';
+import { StaticImage } from 'gatsby-plugin-image';
 import {
     cta1Bkg,
     topSectionContainer,
@@ -24,7 +24,13 @@ const Cta1 = () => {
                 </div>
                 <div className={imgCircleContainer}> {/* An circle image container */}
 
-                <img className={imgManSmiling} src={ImgManSmiling} alt='Smiling man' />
+                    <StaticImage
+                        className={imgManSmiling}
+                        src='../images/ManSmiling.png'
+                        alt='Smiling man'
+                        placeholder='traceSVG'
+                    />
+
                 </div>  
             </div>
             <div className={bottomSectionContainer}>

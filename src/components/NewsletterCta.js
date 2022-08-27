@@ -1,5 +1,5 @@
 import React from 'react';
-import NewsletterCTAImg from '../images/NewsletterCTAImg.png';
+import { StaticImage } from 'gatsby-plugin-image';
 import {
     newsletterCtaBkg,
     container,
@@ -37,12 +37,14 @@ const NewsletterCTA = () => {
                     <button className={ctaBtn}>Get It Now!</button>
                 </div>
                 <div className={rightCol} >
-                        <img
+                        <StaticImage 
                             className={newsletterCTAImg}
-                            src={NewsletterCTAImg}
+                            src='../images/NewsletterCTAImg.png'
                             alt='person with computer'
+                            placeholder='tracedSVG'
+                        />
 
-                            />
+                        
                 </div>
             </div>
                 {/* We want to keep the button outside of the div above. The bottomSection div use display:flex to align the heading and image in a row. We don't want the button to also be displayed in that row on bigger screens. This is why, we keep it separately. */}

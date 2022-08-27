@@ -24,6 +24,8 @@ h1 {
 }
 
 .testimonialsImg {
+    width: 900px;
+    height: auto;
     display: block;
     margin: 10% auto;
         

@@ -1,5 +1,5 @@
 import React from 'react';
-import testimonials from '../images/Testimonials.png';
+import { StaticImage } from 'gatsby-plugin-image';
 import {
     testimonialsBkg,
     container,
@@ -19,11 +19,15 @@ const Testimonials = () => {
                     <br/>
                     <span className={aboutUs}>about us</span>
                 </h1>
-                <img
+
+                <StaticImage 
                     className={testimonialsImg}
-                    src={testimonials}
+                    src='../images/testimonials.png'
                     alt='testimonials'
-                    />
+                    placeholder='tracedSVG'
+                />
+
+                
             </div>
         </div>
     

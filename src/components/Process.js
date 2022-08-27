@@ -1,5 +1,6 @@
 import React from 'react';
-import ProcessMap from '../images/ProcessMap.png';
+// import ProcessMap from '../images/ProcessMap.png';
+import { StaticImage } from 'gatsby-plugin-image';
 import {
     processBkg,
     container,
@@ -18,11 +19,18 @@ const Process = () => {
                 <h1 className={h1}>Fundraising is a </h1> <h1 className={process}>process</h1>
                 <h2 className={h2}>You don't have to discover it on your own.</h2>
                 <h2 className={h2}>We'll <span className = {guideYou}> guide you </span> through it.</h2>
-                <img 
+                <StaticImage 
+                    className={processMap}
+                    src='../images/ProcessMap.png'
+                    alt='Process Map'
+                    placeholder='tracedSVG'
+                />
+
+                {/* <img 
                     className={processMap}
                     src={ProcessMap} 
                     alt='Process Map'        
-                    />
+                    /> */}
             </div>
         </div>
     )
