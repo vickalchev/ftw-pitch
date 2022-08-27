@@ -11,7 +11,6 @@ import {
     h2NewsletterCta,
     magnetWrapper,
     leftCol,
-    rightCol,
 
 
 } from './newsletterCTA.module.css';
@@ -36,7 +35,7 @@ const NewsletterCTA = () => {
                     </div>
                     <button className={ctaBtn}>Get It Now!</button>
                 </div>
-                <div className={rightCol} >
+                <div>
                         <StaticImage 
                             className={newsletterCTAImg}
                             src='../images/NewsletterCTAImg.png'
