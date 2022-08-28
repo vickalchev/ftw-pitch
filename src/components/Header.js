@@ -7,9 +7,9 @@ import {
     circle2,
     circle3,
     h1,
-    h2,
-    
+    h2,    
     howItWorksBtn,
+    howItWorksBtnLink,
 } from './header.module.css';
 
 const Header = () => {
@@ -23,6 +23,7 @@ const Header = () => {
                 
             </h2>
             <AnchorLink
+                className={howItWorksBtnLink}
                 to='#process'
                 >
                 <button 

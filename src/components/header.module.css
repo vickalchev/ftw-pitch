@@ -8,14 +8,14 @@
 
 .circle-1 {
 
-position: absolute;
-width: 259px;
-height: 259px;
-border-radius: 100%;
-left:120px;
-top: 134px;
-background: #FDC307;
-z-index: 1;
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    border-radius: 100%;
+    left:120px;
+    top: 134px;
+    background: #FDC307;
+    z-index: 1;
 }
 
 .circle-2 {
@@ -64,6 +64,7 @@ z-index: 1;
     line-height: 140%;
     /* or 56px */
     color: #000000;
+    z-index: 1;
 
 }
 
@@ -78,6 +79,7 @@ z-index: 1;
     background: #FDC307;
     border: 1px solid #000000;
     box-shadow: 4px 4px 0px #000000;
+    z-index: 1;
 }
 
 .how-it-works-btn:hover {
@@ -86,4 +88,55 @@ z-index: 1;
     color: white;
     box-shadow: 4px 4px 0px #FDC307;
 
+}
+
+.how-it-works-btn-link {
+    text-decoration: none;
+}
+
+@media (max-width: 890px) {
+    .container {
+        max-width: 95vw;
+    }
+    .circle-1 {
+        left:-70px;
+        top: 120px;        
+    }
+
+    .circle-2 {
+        width: 172px;
+        height: 172px;
+        left: 340px;
+        top: 650px;
+    }
+
+    .circle-3 {
+        width: 50px;
+        height: 50px;
+        left: 50px;
+        top:750px;
+        
+    }
+
+    .h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 4rem;
+    }
+
+    .h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.8rem;    
+    }
+
+    .how-it-works-btn {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

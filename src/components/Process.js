@@ -26,11 +26,7 @@ const Process = () => {
                     placeholder='tracedSVG'
                 />
 
-                {/* <img 
-                    className={processMap}
-                    src={ProcessMap} 
-                    alt='Process Map'        
-                    /> */}
+                
             </div>
         </div>
     )
