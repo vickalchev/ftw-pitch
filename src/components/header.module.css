@@ -94,7 +94,7 @@
     text-decoration: none;
 }
 
-@media (max-width: 890px) {
+@media (min-width:370px) and (max-width: 430px) {
     .container {
         max-width: 95vw;
     }
