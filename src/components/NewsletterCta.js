@@ -12,7 +12,6 @@ import {
     magnetWrapper,
     leftCol,
 
-
 } from './newsletterCTA.module.css';
 
 const NewsletterCTA = () => {

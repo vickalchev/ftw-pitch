@@ -80,3 +80,49 @@
     border: 1px solid black;
     box-shadow: 4px 4px 0px white;
 }
+
+@media (min-width: 370px) and (max-width: 430px) {
+    .newsletterCtaBkg {
+        min-width: 100%;
+    }
+    
+    .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        max-width: 95vw;
+    }
+    
+    .h1-newsletter-cta {
+        text-align: center;
+        font-size: 3.5rem;
+    }
+        
+    .bottom-section {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .left-col {
+        max-width: 100%;
+    }
+    
+    .magnet-wrapper {
+
+        margin-top: 10%;
+        max-width: 100%;
+    }
+    
+    .newsletter-CTA-img {
+        width: 250px;
+        height: 250px;
+        
+    }
+    
+    .ctaBtn {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
