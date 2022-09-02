@@ -48,3 +48,11 @@
     width: 150px;
     height: auto;
 }
+
+@media (min-width: 370px) and (max-width: 430px) {
+    .container {
+        max-width: 95%;
+    }
+    
+    
+}
